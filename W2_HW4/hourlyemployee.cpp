@@ -55,6 +55,7 @@ int Hourly_Employee::get_hourly_rate() const {
 
 void Hourly_Employee::print_salary(){
     printEmployee();
+    cout << "Hourly rate: " << get_hourly_rate() << endl;
     cout << "Hours worked: "<< get_hours() << endl;
     cout << "Extra-hours worked: "<< get_overtime_hours() << endl;
     cout << "Employee Salary: "<< calculate_salary() << endl;
