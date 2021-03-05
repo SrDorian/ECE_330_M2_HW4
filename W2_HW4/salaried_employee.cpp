@@ -47,6 +47,7 @@ float Salaried_Employee::get_time() const {
 //This is a method that prints the information inside the main and derived class
 void Salaried_Employee::print_salary() {
    printEmployee();
+   cout << "Monthly Salary: " << get_monthly_salary() << endl;
    cout << "Fraction of time: "<< get_time() << endl;
    cout << "Employee Salary: "<< calculate_salary() << endl;
 }
